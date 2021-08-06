@@ -4,7 +4,8 @@
   "description": "Perguntas e respostas anônima",
   "main": "src/server.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "init-db": "node src/db/init.js"
   },
   "keywords": [],
   "author": "TH3T10",
@@ -12,6 +13,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "sqlite": "^4.0.23"
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
   }
 }
