@@ -1,0 +1,17 @@
+{
+  "name": "NLW-Discover-Rocket.Q",
+  "version": "1.0.0",
+  "description": "Perguntas e respostas anônima",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "TH3T10",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23"
+  }
+}
